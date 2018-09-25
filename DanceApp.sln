@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceAppMobile.Android", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceAppMobile.iOS", "DanceAppMobile\DanceAppMobile.iOS\DanceAppMobile.iOS.csproj", "{44094E6C-B3D6-4E5E-96B3-FFBFF43FF982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanceAppMobile", "DanceAppMobile\DanceAppMobile\DanceAppMobile.csproj", "{19A09139-3180-4E61-BB65-B9D32F5F680A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DanceAppMobile", "DanceAppMobile\DanceAppMobile\DanceAppMobile.csproj", "{19A09139-3180-4E61-BB65-B9D32F5F680A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

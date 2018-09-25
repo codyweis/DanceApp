@@ -2,6 +2,7 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:views="clr-namespace:DanceAppMobile.Views"
+            xmlns:loginviews="clr-namespace:DanceAppMobile.Views.Login"
             x:Class="DanceAppMobile.Views.MainPage">
     <TabbedPage.Children>
         <NavigationPage Title="Browse">
@@ -23,6 +24,17 @@
             </NavigationPage.Icon>
             <x:Arguments>
                 <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Login">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <loginviews:MainLoginPage />
             </x:Arguments>
         </NavigationPage>
     </TabbedPage.Children>

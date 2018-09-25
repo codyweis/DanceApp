@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using DanceAppMobile.Views;
+using DanceAppMobile.Views.Login;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace DanceAppMobile
@@ -14,7 +15,7 @@ namespace DanceAppMobile
             InitializeComponent();
 
 
-            MainPage = new MainPage();
+            MainPage = new MainLoginPage();
         }
 
         protected override void OnStart()
